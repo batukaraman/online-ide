@@ -1,0 +1,37 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.file-tree {
+  flex: 1;
+  padding: 16px;
+  grid-area: file-tree;
+  color: #fff;
+  background-color: #101420;
+}
+
+.editor {
+  grid-area: editor;
+}
+
+.terminal {
+  grid-area: terminal;
+}
+
+.xterm {
+  padding: 16px;
+}
+
+.xterm-viewport {
+  overflow: hidden !important;
+}
